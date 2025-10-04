@@ -1,7 +1,6 @@
-package Labka4napari.MoreOOP.src.main.java.lotr;
-import Random;
-import Labka4napari.MoreOOP.src.main.java.lotr.Character;
-import Labka4napari.MoreOOP.src.main.java.lotr.strategy.*;
+package lotr;
+// import lotr.Character;
+// import lotr.strategy.*;
 
 import java.util.Random;
 

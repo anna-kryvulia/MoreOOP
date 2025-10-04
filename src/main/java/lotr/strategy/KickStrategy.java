@@ -1,6 +1,6 @@
-package Labka4napari.MoreOOP.src.main.java.lotr.strategy;
-import Labka4napari.MoreOOP.src.main.java.lotr.Character;
+package lotr.strategy;
+// import lotr.Character;
 
 public abstract class KickStrategy {
-    public abstract void kick(Character main, Character enemy);
+    public abstract void kick(lotr.Character main, lotr.Character character2);
 }

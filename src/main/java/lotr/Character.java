@@ -1,7 +1,7 @@
-package Labka4napari.MoreOOP.src.main.java.lotr;
-import Labka4napari.MoreOOP.src.main.java.lotr.startegy.KickStrategy;
+package lotr;
+import lotr.strategy.KickStrategy;
 import lombok.AllArgsConstructor;
-import lombok.Data
+import lombok.Data;
 
 @Data
 @AllArgsConstructor

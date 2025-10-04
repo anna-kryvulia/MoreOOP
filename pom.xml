@@ -8,21 +8,41 @@
     <artifactId>MoreOOP</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
-        <dependency>
+        <!-- <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.8.1</version>
             <scope>test</scope>
+        </dependency> -->
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+            </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+
+                <!-- https://mvnrepository.com/artifact/org.zalando/logbook-core -->
+        <dependency>
+            <groupId>org.zalando</groupId>
+            <artifactId>logbook-core</artifactId>
+            <version>3.12.3</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.42</version>
         </dependency>
     </dependencies>
-
-        <!-- https://mvnrepository.com/artifact/org.zalando/logbook-core -->
-    <dependency>
-        <groupId>org.zalando</groupId>
-        <artifactId>logbook-core</artifactId>
-        <version>3.12.3</version>
-        <scope>test</scope>
-    </dependency>
 
     <build>
         <plugins>

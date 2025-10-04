@@ -1,7 +1,7 @@
-package Labka4napari.MoreOOP.src.main.java.lotr.strategy;
+package lotr.strategy;
 import java.util.Random;
 
-import Labka4napari.MoreOOP.src.main.java.lotr.Character;
+import lotr.Character;
 
 public class KnightKickStrategy extends KickStrategy{
     private static Random RANDOM = new Random();

@@ -1,6 +1,6 @@
-package Labka4napari.MoreOOP.src.main.java.lotr;
+package lotr;
 
-import Labka4napari.MoreOOP.src.main.java.lotr.strategy.ElfKickStrategy;
+import lotr.strategy.ElfKickStrategy;
 
 // - class Elf 
 //    - attributes: int power=10, int hp=10

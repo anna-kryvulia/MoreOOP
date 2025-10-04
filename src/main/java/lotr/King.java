@@ -1,7 +1,7 @@
-package Labka4napari.MoreOOP.src.main.java.lotr;
+package lotr;
 import java.util.Random;
 
-import Labka4napari.MoreOOP.src.main.java.lotr.strategy.KickStrategy;
+import lotr.strategy.KingKickStrategy;
 
 
 // - class King 
