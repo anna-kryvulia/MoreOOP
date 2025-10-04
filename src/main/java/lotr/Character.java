@@ -19,4 +19,12 @@ public abstract class Character {
     }
 
     public abstract String getName();
+
+    public void setHp(int hp) {
+        this.hp = Math.max(hp, 0);
+    }
+
+    public String toString() {
+        return String.format("%s{hp=%d, power=%d}", getName(), hp, power);
+    }
 }
