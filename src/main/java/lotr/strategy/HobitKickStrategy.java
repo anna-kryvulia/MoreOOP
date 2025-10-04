@@ -1,0 +1,10 @@
+package Labka4napari.MoreOOP.src.main.java.lotr.strategy;
+import Labka4napari.MoreOOP.src.main.java.lotr.Character;
+
+public class HobitKickStrategy extends KickStrategy {
+    @Override
+    public void kick(Character main, Character enemy) {
+        System.out.println("Cry a lot");
+    }
+
+}
